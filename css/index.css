@@ -1,0 +1,43 @@
+body{
+  background: #190707;
+  }
+  header{
+    font-weight: 40px;
+    text-align: center;
+    background: #8A0886;
+    font-style: oblique;
+  }
+  img{
+    text-align: right;
+    float: right;
+    width: 40%;
+    height: 40%;
+  }
+a{
+  float: right;
+}
+.child{
+  width:20%;
+  padding:2%;
+  margin:1%;
+  text-align: center;
+  background-color: red;
+  justify-content: space-around;
+  border-radius: 3px solid #fff;
+display: block;
+}
+.child img{
+  width: 100px;
+  height: 70px;
+padding: 2%;
+}
+.link{
+text-decoration: none;
+color:blue;
+}
+.parent{
+  width:80%;
+  display: flex;
+  flex-wrap: wrap;
+  border:2px solid red;
+}
